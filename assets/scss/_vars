@@ -1,0 +1,52 @@
+
+/*=========Font Sizes========*/
+/*this properties are set assuming default font size is 16px
+  if the root font size is changed then all the font size properties of children are based on root font size in rem.*/
+
+$font-size-10 : 0.625rem;
+$font-size-11 : 0.6875rem;
+$font-size-12 : 0.75rem;
+$font-size-13 : 0.8125rem;
+$font-size-14 : 0.875rem;
+$font-size-15 : 0.9375rem;
+$font-size-16 : 1rem;
+$font-size-17 : 1.0625rem;
+$font-size-18 : 1.125rem;
+$font-size-19 : 1.1875rem;
+$font-size-20 : 1.25rem;
+$font-size-21 : 1.3125rem;
+$font-size-22 : 1.375rem;
+$font-size-23 : 1.4375rem;
+$font-size-24 : 1.5rem;
+$font-size-25 : 1.5625rem;
+$font-size-26 : 1.625rem;
+$font-size-27 : 1.6875rem;
+$font-size-28 : 1.75rem;
+$font-size-29 : 1.8125rem;
+$font-size-30 : 1.875rem;
+$font-size-30 : 1.9375rem;
+$font-size-30 : 2rem;
+
+/*=========font size end===========*/
+
+
+/*=======US colors schema=========*/
+
+$us-color-primary : #FFD300; /*amber*/
+$us-color-secondary : #464646; /*dark grey*/
+$us-color-tertiary : #EDEDED; /*light grey*/
+
+$us-font-color-primary : #212529;
+$us-font-color-secondary : #6c757d;
+$us-font-color-tertiary : #EDEDED;
+$us-font-color-quaternary : #FFD300;
+$us-font-color-white : #FFFFFF;
+
+$us-font-size-heading : $font-size-30;
+$us-font-size-subheading : $font-size-24;
+$us-font-size-paragraph : $font-size-16;
+$us-font-size-subparagraph : $font-size-14;
+$us-font-size-subsubparagraph : $font-size-13;
+
+$us-input-box-size : $font-size-14;
+/*=======US color schema end=========*/
