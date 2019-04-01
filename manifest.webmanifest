@@ -1,6 +1,6 @@
 {
-  "name": "US",
-  "short_name": "US",
+  "name": "temp",
+  "short_name": "temp",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
