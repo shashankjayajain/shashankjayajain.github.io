@@ -153,7 +153,10 @@
     "REGION": "Region",
     "COUNTRY": "Country",
     "CHANGE-PASSWORD": "Change password?",
-    "SAVE-PROFILE": "Save Profile"
+    "SAVE-PROFILE": "Save Profile",
+    "ZIP-CODE-EMPTY" : "You have to fill Zip code",
+    "HOUSE-NUMBER-EMPTY" : "You have to fill House no",
+    "ZIP-CODE-HOUSE-NUMBER-EMPTY" : "You have to fill Zip code and House no"
   },
   "MY-CONSENTS": {
     "MY-CONSENTS-TITLE": "My Consents",
@@ -329,7 +332,9 @@
     "U_204": "Passcode Expired",
     "U_205": "Passcode Mismatch",
     "U_206": "User Not Found",
-    "U_207": "User already exists"
+    "U_207": "User already exists",
+
+    "400": "Combination of Zip code and House number does not exist"
   },
   "LOGIN-SERVICE-ERROR-CODES": {
     "U_001": "Internal Server Error",
