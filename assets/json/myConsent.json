@@ -1,0 +1,16 @@
+[
+  {
+    "systemId":"BKR",
+    "orgId":"ICICI",
+    "systemDescription":"Receive alerts based on your credit check",
+    "countryCode":"NLD",
+    "consent":"1"
+  },
+  {
+    "systemId":"BKR",
+    "orgId":"AXIS",
+    "systemDescription":"Receive alerts based on your credit check",
+    "countryCode":"NLD",
+    "consent":"0"
+  }
+]

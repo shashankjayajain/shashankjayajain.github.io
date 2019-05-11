@@ -1,0 +1,35 @@
+{
+    "authenticatedIdentityType": [
+        "Bike rc"
+    ],
+    "authSystem": {
+        "DigiD": [
+            {
+                "identityTypeId": "Passport",
+                "tag": ""
+            }
+        ],
+        "IRMA": [
+            {
+                "identityTypeId": "BSN",
+                "tag": "irma-demo.nijmegen.bsn.bsn"
+            },
+            {
+                "identityTypeId": "DL",
+                "tag": "irma-demo.MijnOverheid.drivinglicense.number"
+            },
+            {
+                "identityTypeId": "Email",
+                "tag": "pbdf.pbdf.email.email"
+            },
+            {
+                "identityTypeId": "Mobile",
+                "tag": "pbdf.pbdf.mobilenumber.mobilenumber"
+            },
+            {
+                "identityTypeId": "Passport",
+                "tag": "irma-demo.MijnOverheid.idDocument.number"
+            }
+        ]
+    }
+}

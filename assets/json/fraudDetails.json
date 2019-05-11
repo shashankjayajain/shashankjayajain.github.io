@@ -1,0 +1,25 @@
+{
+  "fraudId": 24,
+  "alertId": 22,
+  "status": "NF_CLOSE",
+  "alertIds": null,
+  "fraudReportId": null,
+  "reportStatus": null,
+  "comments": null,
+  "reportDatetime": null,
+  "reportResponse": null,
+  "eventList": [
+    {
+      "eventId": 3,
+      "eventTypeId": "passportId",
+      "eventDescription": "this regarding passport id",
+      "eventTypeDescription": "this is passportid",
+      "eventTime": "2019-04-22T00:00:00.000+0000",
+      "parentEventID": 101012
+    }
+  ],
+  "orgDetail": {
+    "orgId": "BKR",
+    "orgDescription": "bkr organisation decription"
+  }
+}

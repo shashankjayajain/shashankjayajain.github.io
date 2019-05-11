@@ -1,0 +1,28 @@
+{
+"purpose": "industriefunctie",
+"postcode": "6545CA",
+"surface": 1300,
+"municipality": {
+"id": "0268",
+"label": "Nijmegen"
+},
+"city": {
+"id": "3030",
+"label": "Nijmegen"
+},
+"letter": null,
+"nen5825": {
+"postcode": "6545 CA",
+"street": "BINDERSKAMPWEG"
+},
+"addition": null,
+"number": 1,
+"year": 1980,
+"province": {
+"id": "25",
+"label": "Gelderland"
+},
+"id": "0268200000054476",
+"type": "Verblijfsobject",
+"street": "Binderskampweg"
+}
