@@ -1,19 +1,46 @@
 {
-  "userId": "GWc4q8FW",
-  "firstName": "liki",
-  "middleName": "l",
-  "lastName": "c",
-  "email": "gowtham@yebelo.com",
-  "mobile": 8154872145,
-  "birthDate": null,
-  "zipCode": null,
-  "addressNo": null,
-  "addressSuffix": null,
-  "addressLine1": null,
-  "addressLine2": null,
-  "region": null,
-  "countryCode": "PAK",
-  "gender": "M",
-  "lastModified": "2019-04-21T09:46:13.000+0000",
-  "countryDescription": "Pakistan"
+  "fraudId": 0,
+  "alertId": 0,
+  "status": null,
+  "alertTypeId": null,
+  "fraudReportId": null,
+  "reportStatus": null,
+  "comments": null,
+  "reportDatetime": null,
+  "reportResponse": null,
+  "eventList": [],
+  "orgDetail": [
+    {
+      "orgId": "CMI",
+      "orgDescription": "Identity Theft Reporting Office"
+    },
+    {
+      "orgId": "ING",
+      "orgDescription": "ING"
+    }
+  ],
+  "fraudInterventions": [
+    {"OrgID": "Logius",
+    "AlertTypeID": "LOGIN",
+    "ActionDesc": "Do not give access",
+    "Action": "",
+    "ActionType": "BUTTON"},
+    {"OrgID": "Logius",
+      "AlertTypeID": "LOGIN",
+      "ActionDesc": "Terminate the session that is started with my ",
+      "Action": "",
+      "ActionType": "BUTTON"}
+  ],
+  "fraudRecoveryActions": [
+    {
+      "OrgID": "Logius",
+      "AlertTypeID": "LOGIN",
+      "ActionDesc": "Get in contact with Identity Theft Reporting Offic..",
+      "Action": "088- 900 10 00",
+      "ActionType": "PHONE"}
+  ],
+  "alertTypeDesc": "Login attempt",
+  "alertTypeMsg": "Your DigiD has just been used to login",
+  "alertTypeQuestion": "Your DigiD has just been used to login",
+  "alertIds": null
 }

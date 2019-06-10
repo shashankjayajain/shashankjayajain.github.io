@@ -1,26 +1,18 @@
 [
   {
     "subscriptionId": 1,
-    "description": "sub-1",
-    "countryCode": "IND",
+    "description": " Password Management Tool",
+    "countryCode": "NLD",
     "userId": "GWc4q8FW",
-    "subscription": "1",
+    "subscription": "0",
     "lastUpdated": "2019-05-06T05:00:00.000+0000"
   },
   {
     "subscriptionId": 2,
-    "description": "sub-2",
-    "countryCode": "IND",
+    "description": "Virus Scanner",
+    "countryCode": "NLD",
     "userId": "GWc4q8FW",
     "subscription": "0",
     "lastUpdated": "2019-05-06T05:00:00.000+0000"
-  },
-  {
-    "subscriptionId": 7,
-    "description": "sub-3",
-    "countryCode": "IND",
-    "userId": null,
-    "subscription": "0",
-    "lastUpdated": null
   }
 ]
