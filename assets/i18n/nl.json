@@ -156,7 +156,10 @@
     "REGION": "Regio",
     "COUNTRY": "land",
     "CHANGE-PASSWORD": "Wachtwoord wijzigen?",
-    "SAVE-PROFILE": "Profiel opslaan"
+    "SAVE-PROFILE": "Profiel opslaan",
+    "ZIP-CODE-EMPTY" : "Je moet postcode invullen",
+    "HOUSE-NUMBER-EMPTY" : "Je moet House geen vullen",
+    "ZIP-CODE-HOUSE-NUMBER-EMPTY" : "Je moet postcode en huisnr vullen"
   },
   "MY-CONSENTS": {
     "MY-CONSENTS-TITLE": "Mijn toestemming",
@@ -224,7 +227,7 @@
     "REPORT-FORM": "Meldingsformulier",
     "IDENTITY-USAGE-VALID": "Is de identiteit gebruik geldig?",
     "I-AM-AWARE": "Ja, ik ben me ervan bewust.",
-    "NO-NOT-AWARE": "Nee, ik ben niet op de hoogte van deze identiteit gebruik",
+    "NO-NOT-AWARE": "Nee, het is een fraude",
     "NEED-HELP": "Hulp nodig",
     "CANCLE": "annuleren",
     "SUBMIT": "voorleggen",
@@ -335,7 +338,9 @@
     "U_204": "Passcode verlopen",
     "U_205": "Passcode Mismatch",
     "U_206": "Gebruiker niet gevonden",
-    "U_207": "Gebruiker bestaat al"
+    "U_207": "Gebruiker bestaat al",
+
+    "400": "Combinatie van postcode en huisnummer niet bestaat"
   },
   "LOGIN-SERVICE-ERROR-CODES": {
     "U_001": "Interne Server Fout",

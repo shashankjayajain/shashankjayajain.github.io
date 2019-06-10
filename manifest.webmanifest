@@ -1,8 +1,8 @@
 {
   "name": "US",
   "short_name": "US",
-  "theme_color": "#4D4D4D",
-  "background_color": "#4D4D4D",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",

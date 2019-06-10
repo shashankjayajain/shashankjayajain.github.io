@@ -32,14 +32,14 @@ $font-size-30 : 2rem;
 
 /*=======US colors schema=========*/
 
-$us-color-primary : #FFD300; /*amber*/
+$us-color-primary : #007bc7 ; /*amber*/
 $us-color-secondary : #464646; /*dark grey*/
 $us-color-tertiary : #EDEDED; /*light grey*/
 
 $us-font-color-primary : #212529;
 $us-font-color-secondary : #6c757d;
 $us-font-color-tertiary : #EDEDED;
-$us-font-color-quaternary : #FFD300;
+$us-font-color-quaternary : #007bc7;
 $us-font-color-white : #FFFFFF;
 
 $us-font-size-heading : $font-size-30;

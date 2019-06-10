@@ -153,7 +153,10 @@
     "REGION": "Region",
     "COUNTRY": "Country",
     "CHANGE-PASSWORD": "Change password?",
-    "SAVE-PROFILE": "Save Profile"
+    "SAVE-PROFILE": "Save Profile",
+    "ZIP-CODE-EMPTY" : "You have to fill Zip code",
+    "HOUSE-NUMBER-EMPTY" : "You have to fill House no",
+    "ZIP-CODE-HOUSE-NUMBER-EMPTY" : "You have to fill Zip code and House no"
   },
   "MY-CONSENTS": {
     "MY-CONSENTS-TITLE": "My Consents",
@@ -172,8 +175,8 @@
     "WEEKLY-DROP-DOWN":"Weekly",
     "MONTHLY-DROP-DOWN": "Monthly",
     "NOTIFICATION": "Notification",
-    "CLEAR-ME": "Clear me",
-    "FORGET-ME": "Forget me",
+    "CLEAR-ME": "Clear All Logs",
+    "FORGET-ME": "Delete My Account",
     "MODEL-CLEAR-ME": "Clear me",
     "MODEL-CLEAR-ME-OK": "OK",
     "MODEL-CLEAR-ME-CANCEL": "Cancel",
@@ -200,7 +203,7 @@
     "TYPE-SELECT-ONE": "select one",
     "FROM-DATE": "From Date",
     "TO-DATE": "To Date",
-    "CONTENT": "content",
+    "CONTENT": "Content",
     "SOURCE-OF-ALERT": "Source of alert",
     "RESET": "Reset",
     "REFINE": "Refine",
@@ -218,21 +221,21 @@
     "AMOUNT": "Amount",
     "DATE": "Date",
     "DESCRIPTION": "Description",
-    "REPORT-FORM": "Report Form",
+    "REPORT-FORM": "Report As Fraud",
     "IDENTITY-USAGE-VALID": "Is the identity usage valid?",
-    "I-AM-AWARE": "Yes, I am aware.",
-    "NO-NOT-AWARE": "No, I am not aware of this identity usage",
+    "I-AM-AWARE": "Yes, it's me",
+    "NO-NOT-AWARE": "No, it's a Fraud",
     "NEED-HELP": "Need help",
     "IS-VALID": "Is Valid",
     "REPORT-FRAUD": "Report as Fraud",
-    "CANCLE": "Cancle",
+    "CANCLE": "Cancel",
     "SUBMIT": "Submit",
     "COMMENTS": "Comments",
     "MODEL-FRAUD-REPORTING": "Fraud Reporting",
     "MODEL-FRAUD-DATA": "Are you sure you want to report this alerts as fraud to the following departments?",
     "REPORT": "Report",
     "HISTORY-OF-EVENTS": "History of Events",
-    "ALERT-REPORT": "This alert will be reported as fraud to following",
+    "ALERT-REPORT": "NOTE: This alert will be reported as fraud to following Organisation/s",
     "ACCOUNT OPENING": "Account opening",
     "REPORT-SELECTION-ERROR": "You have to select an option to proceed further.",
     "REPORT-FRAUD-SELECTION-ERROR": "You have to select an option in report fraud to proceed further."
@@ -244,7 +247,7 @@
   "DASHBOARD": {
     "OPEN-FRAUDS": "Open Frauds",
     "OPEN-FRAUDS-SINCE": "Since last month",
-    "UNATTENDED-ALERTS": "Unattended Alerts",
+    "UNATTENDED-ALERTS": "Un-Read Alerts",
     "UNATTENDED-ALERTS-SINCE": "Since last month",
     "FRAUD-THIS-MONTH": "Frauds This Month",
     "FRAUD-THIS-MONTH-SINCE": "Since last month",
@@ -260,7 +263,7 @@
   },
   "TODO": {
     "TO-DO-TITLE": "To-Do",
-    "TO-DO-INFO": "By clearing Open Items you will better protect yourself against",
+    "TO-DO-INFO": "By clearing Open Items you will better protect yourself against ",
     "TO-DO-TODAY": "Today",
     "IDENTITY-FRAUD": "Identity Fraud",
     "TO-DO-UPCOMING": "Up coming to-do's"
@@ -329,7 +332,9 @@
     "U_204": "Passcode Expired",
     "U_205": "Passcode Mismatch",
     "U_206": "User Not Found",
-    "U_207": "User already exists"
+    "U_207": "User already exists",
+
+    "400": "Combination of Zip code and House number does not exist"
   },
   "LOGIN-SERVICE-ERROR-CODES": {
     "U_001": "Internal Server Error",
@@ -352,5 +357,8 @@
     "AS_109": "Alert content must be less than or equal to 200 characters",
     "AS_110": "Source of Alert type must be less than or equal to 20 characters",
     "AS_111": "Invalid sort value"
+  },
+  "PUSH-MGS-SERVICE-ERROR-CODES": {
+    "UN_110": "You are not Authorized to post Messages on behalf of the selected User"
   }
 }
