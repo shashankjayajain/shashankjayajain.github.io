@@ -1,4 +1,7 @@
 {
+  "ERROR-HEADING": {
+    "ERROR": "Error!"
+  },
   "FOOTER": {
     "ACCOUNT": "Account",
     "Company": "Company",
@@ -23,7 +26,20 @@
     "MODEL-CANCLE": "Cancel",
     "MODEL-ABOUT": "About",
     "MODEL-VERSION-DATE": "Version Release date",
-    "MODEL-VERSION-NO": "Version number"
+    "MODEL-VERSION-NO": "Version number",
+
+    "DASHBOARD": "Dashboard",
+    "AUTHENTICATION": "Authentication",
+    "ALERTS": "Alerts",
+    "MESSAGES": "Messages",
+    "VIEW-ALL": "View All",
+    "NOTIFICATION": "Notification",
+    "PROFILE": "Profile",
+    "ABOUT": "About",
+    "LOGOUT": "Logout",
+    "MSG-MODAL-BROADCAST-MSG": "Broadcast Message",
+    "MSG-MODAL-CLOSE": "Close",
+    "MSG-MODAL-UNREAD": "Mark Unread"
   },
   "RADIOBUTTON": {
     "NEEDHELP": "Need help",
@@ -74,7 +90,13 @@
     "SIGN-UP": "Sign Up",
     "LOGIN-LINK-HAVE-ACCOUNT": "Already have account?",
     "LOGIN-LINK": "LogIn",
-    "REGISTER-INFO-HEADING": "Why Upfront Security"
+    "REGISTER-INFO-HEADING": "Why Check!?",
+    "REGISTER-INFO-HEADING-DESC": "Check! is an App from the Dutch Government which provides users with security, intervention & recovery functionalities against Identity Fraud. By discovering when somebody else is using your Identity, you can prevent or stop the fraud sooner.",
+    "REGISTER-INFO-PASSWORD-HEADING": "Password recommendation",
+    "REGISTER-INFO-PASSWORD-HEADING-DESC": "You are encouraged to select a password that does not contain information that could be easily guessed or linked based on for example a social media account by other people. Do not use your name, date of birth or other common data on yourself or even family members. The more unique you make your password, the more difficult you will make potential access to your account by unauthorized people.",
+    "REGISTRATION-SUCCESS": "Registration Success",
+    "REGISTRATION-SUCCESS-DESC": "Registration request is successful and passcode is sent to your registered email.",
+    "REGISTRATION-CONTINUE": "Continue"
   },
   "CONFIRM-PASSWORD": {
     "TITLE": "Confirm Passcode",
@@ -92,6 +114,8 @@
   "FORGOT-PASSWORD": {
     "TITLE": "Forgot password",
     "TITLE-TEXT": "Forgot your account to login.",
+    "TITLE-CHANGE-PASSWORDS": "Change Password",
+    "TITLE-TEXT-CHANGE-PASSWORD": "Do you want to change your password?",
 
     "EMAIL": "Email",
     "VALIDATION-EMAIL-EMPTY": "Enter your email.",
@@ -122,7 +146,10 @@
     "VALIDATION-PASSWORD-NOT-MATCH": "Password do not match",
     "RESET": "Reset",
     "CANCEL": "Cancel",
-    "RESET-INFO-HEADING": "Why Upfront Security"
+    "RESET-INFO-HEADING": "Why Check!?",
+    "RESET-INFO-HEADING-DESC": "Check! is an App from the Dutch Government which provides users with security, intervention & recovery functionalities against Identity Fraud. By discovering when somebody else is using your Identity, you can prevent or stop the fraud sooner.",
+    "RESET-INFO-PASSWORD-HEADING": "Password recommendation",
+    "RESET-INFO-PASSWORD-HEADING-DESC": "You are encouraged to select a password that does not contain information that could be easily guessed or linked based on for example a social media account by other people. Do not use your name, date of birth or other common data on yourself or even family members. The more unique you make your password, the more difficult you will make potential access to your account by unauthorized people."
   },
   "PROFILE": {
     "DASHBOARD-SUB-MENU": "Dashboard",
@@ -147,9 +174,9 @@
     "ZIP-CODE": "Zip code",
     "HOUSE-NO": "House no",
     "HOUSE-NO-SUFFIX": "House no suffix",
-    "ADDRESS-FIELD-LINE1": "Address Field line 1",
-    "ADDRESS-FIELD-LINE2": "Address Field line 2",
-    "ADDRESS-FIELD-LINE3": "Address Field line 3",
+    "ADDRESS-FIELD-LINE1": "Street",
+    "ADDRESS-FIELD-LINE2": "City",
+    "ADDRESS-FIELD-LINE3": "Municipality",
     "REGION": "Region",
     "COUNTRY": "Country",
     "CHANGE-PASSWORD": "Change password?",
@@ -162,13 +189,20 @@
     "MY-CONSENTS-TITLE": "My Consents",
     "MY-DESCRIPTIONS": "My Descriptions",
     "TIPS-TRICKS-TITLE": "When do you want Tips and Tricks to be notified",
-    "NOTIFICATION-TITLE": "Notification"
+    "NOTIFICATION-TITLE": "Notification",
+
+    "MY-CONSENTS-INFO": "We require your consent to receive Identity Usage information from the following organizations. This is required for the effective use of the system",
+    "MY-CONSENTS-AUTHORIZE": "I hereby Authorize Upfront Security to receive Identity Usage Alerts from the selected organizations.",
+    "MY-CONSENTS-SELECT-DESELECT": "Select/Deselect all",
+    "MY-CONSENTS-FIRST-LOGIN-NOTE": "NOTE: You can modify the setting any time in the user profile.",
+    "MY-CONSENTS-SKIP": "Skip",
+    "MY-CONSENTS-CONTINUE": "Continue"
   },
   "MY-SUBSCRIPTION": {
     "TITLE": "My Subscriptions"
   },
   "MY-NOTIFICATION-TIPS": {
-    "TITLE": "When do you want Tips and Tricks to be",
+    "TITLE": "Notify Tips & tricks immediately",
     "IMMEDIATE-RADIO": "Immediate",
     "PERIODIC-RADIO": "Periodic",
     "DAILY-DROP-DOWN": "Daily",
@@ -181,7 +215,16 @@
     "MODEL-CLEAR-ME-OK": "OK",
     "MODEL-CLEAR-ME-CANCEL": "Cancel",
     "MODEL-FORGET-ME": "Forget me",
-    "MODEL-FORGET-ME-CANCEL": "Cancel"
+    "MODEL-FORGET-ME-CANCEL": "Cancel",
+
+    "CLEAR-ME-TITLE": "Clear Me",
+    "CLEAR-ME-INFO": "Delete log of all your alert data, Fraud reporting and audits stored in the system.",
+    "DELETE-ME-TITLE": "Delete Me",
+    "DELETE-ME-INFO": "Delete your user ID and all data relevant to you from the system.",
+    "CLEAR-ME-MODAL-STR-1": "By clearing your log, we will delete the log of all your alert data, Fraud reporting and audits stored in the system.",
+    "CLEAR-ME-MODAL-STR-2": "Warning: Removal of your log will be permanent and can not be recovered.",
+    "FORGER-ME-MODAL-STR-1": "By removing your account we will delete the log of all your alert data, Fraud reporting and audits stored in the system. Your user ID, consents, authentications and all data relevant to you will be removed from the system.",
+    "FORGER-ME-MODAL-STR-2": "Warning: Removal of your account will be permanent. Should you in the future again want to make use of the application, you will have to re-register."
   },
   "SEARCH-ALERTS": {
     "TITLE": "Search Alerts",
@@ -209,7 +252,9 @@
     "REFINE": "Refine",
     "DATE-TIME": "Date time",
     "ALERT-SOURCE": "Alert source",
-    "ACCESSED-BY": "Accessed by"
+    "ACCESSED-BY": "Accessed by",
+    "SEARCH-ALERT-RESET": "Reset",
+    "SEARCH-ALERT-REFINE": "Refine"
 
   },
   "ALERT-DETAILS": {
@@ -223,8 +268,8 @@
     "DESCRIPTION": "Description",
     "REPORT-FORM": "Report As Fraud",
     "IDENTITY-USAGE-VALID": "Is the identity usage valid?",
-    "I-AM-AWARE": "Yes, it's me",
-    "NO-NOT-AWARE": "No, it's a Fraud",
+    "I-AM-AWARE": "Yes",
+    "NO-NOT-AWARE": "No",
     "NEED-HELP": "Need help",
     "IS-VALID": "Is Valid",
     "REPORT-FRAUD": "Report as Fraud",
@@ -238,7 +283,13 @@
     "ALERT-REPORT": "NOTE: This alert will be reported as fraud to following Organisation/s",
     "ACCOUNT OPENING": "Account opening",
     "REPORT-SELECTION-ERROR": "You have to select an option to proceed further.",
-    "REPORT-FRAUD-SELECTION-ERROR": "You have to select an option in report fraud to proceed further."
+    "REPORT-FRAUD-SELECTION-ERROR": "You have to select an option in report fraud to proceed further.",
+
+    "IMMEDIATE-INTERVENTION": "Immediate Intervention",
+    "ACT-NOW-BTN": "Act Now",
+    "RECOVERY": "Recovery",
+    "REPORT-FRAUD-YES": "Yes",
+    "REPORT-FRAUD-NO": "No"
   },
   "AuditLog": {
     "TITLE": "Search Logs",
@@ -249,17 +300,30 @@
     "OPEN-FRAUDS-SINCE": "Since last month",
     "UNATTENDED-ALERTS": "Un-Read Alerts",
     "UNATTENDED-ALERTS-SINCE": "Since last month",
-    "FRAUD-THIS-MONTH": "Frauds This Month",
+    "FRAUD-THIS-MONTH": "Frauds This Month*",
     "FRAUD-THIS-MONTH-SINCE": "Since last month",
     "UNREAD-TIP-AND-TRICKS": "Unread Tips & Tricks",
     "UNREAD-TIP-AND-TRICKS_SINCE": "Since last month",
     "TO-DO-DUE-TODAY": "To-do Due Today",
     "TO-DO-DUE-TODAY-SINCE": "Since last month",
-    "FRAUD-THIS-YEAR": "Frauds This Year",
+    "FRAUD-THIS-YEAR": "Frauds This Year*",
     "FRAUD-THIS-YEAR-SINCE": "Since last month",
     "TIP-AND-TRICKS": "TIPS AND TRICKS",
     "TIP-AND-TRICKS-INFO": "By reading Tips & Tricks you will better understand how criminals work and give you advice on how to prevent Identity Fraud",
-    "OUTSTANDING-FRAUDS": "Outstanding Frauds"
+    "OUTSTANDING-FRAUDS": "Outstanding Frauds",
+    "OUTSTANDING-FRAUDS-INFO": "Your outstanding Identity frauds are listed below.",
+
+    "FRAUD-MONTHLY-YEARLY-NOTE": "Note: * Statistics based on all app users",
+    "DASHBOARD-MORE": "more..",
+    "MOBILE-ALERTS-STRING-1": "Alerts",
+    "MOBILE-ALERTS-STRING-2": " to be attended",
+    "MOBILE-MESSAGES-STRING-1": "Messages",
+    "MOBILE-MESSAGES-STRING-2": " are unread",
+    "MOBILE-TODO-STRING-1": "To-Do",
+    "MOBILE-TODO-STRING-2": " Due today",
+    "MOBILE-PERMANENT-DEVICE": "Is this your permanent device?",
+    "MOBILE-PERMANENT-DEVICE-YES": "Yes",
+    "MOBILE-PERMANENT-DEVICE-NO": "No"
   },
   "TODO": {
     "TO-DO-TITLE": "To-Do",
@@ -276,10 +340,26 @@
     "TO-DO-DUE-DATE": "Due Date",
     "TO-DO-COMPLETE": "Complete",
     "TO-DO-OK-BUTTON": "Ok",
-    "TO-DO-CANCEL-BUTTON": "Cancel"
+    "TO-DO-CANCEL-BUTTON": "Cancel",
+    "TO-DO-POPUP-SNOOZE-1": "Snoozed For ",
+    "TO-DO-POPUP-SNOOZE-2": " Day/s"
   },
   "AUDIT-LOG-DASHBOARD": {
-    "AUDIT-LOG": "Audit Log"
+    "AUDIT-LOG": "Audit Log",
+    "AUDIT-LOG-INFO": "Log of your activities.",
+    "AUDIT-LOG-MORE": "more..."
+  },
+  "AUDIT-LOG": {
+    "TITLE": "Audit Log",
+    "AUDIT-LOG-SEARCH": "Search Logs",
+    "AUDIT-LOG-SEARCH-TYPE": "Type",
+    "AUDIT-LOG-SEARCH-FROM-DATE": "From-Date",
+    "AUDIT-LOG-SEARCH-TO-DATE": "To-Date",
+    "AUDIT-LOG-SEARCH-RESET": "Reset",
+    "AUDIT-LOG-SEARCH-REFINE": "Refine",
+    "AUDIT-LOG-HISTORY": "History of Logs",
+    "AUDIT-LOG-SORT-DATE-TIME": "Date time",
+    "AUDIT-LOG-SORT-TYPE": "Type"
   },
   "SPEEDOMETER-DASHBOARD": {
     "SECURITY-STATUS": "Security Status",
@@ -293,11 +373,11 @@
     "U_001": "Internal Server Error",
     "U-S": "Success",
 
-    "U_101": "First name cannot be empty",
-    "U_102": "First name must be greater than or equal to 3 characters and less than or equal to 25 characters",
+    "U_101": "Invalid first name",
+    "U_102": "First name cannot be empty",
     "U_103": "Middle name must be less than or equal to 25 characters",
     "U_104": "Last name cannot be empty",
-    "U_105": "Last name must be greater than or equal to 3 characters and less than or equal to 25 characters",
+    "U_105": "Last name must be greater than or equal to 1 characters and less than or equal to 25 characters",
     "U_106": "Email cannot be empty",
     "U_107": "Email is not valid",
     "U_108": "Email must be greater than or equal to 7 characters and less than or equal to 50 characters",
@@ -309,7 +389,7 @@
     "U_114": "LoginId is not valid",
     "U_115": "LoginId must be greater than or equal to 5 characters and less than or equal to 50 characters",
     "U_116": "Passcode must be equal to 8 digits",
-    "U_117": "First name must be greater than or equal to 3 characters and less than or equal to 25 characters",
+    "U_117": "First name must be greater than or equal to 2 characters and less than or equal to 25 characters",
     "U_118": "Mobile must be less than or equal to 12 digits ",
     "U_119": "AddressNo must be less than or equal to 5 characters ",
     "U_120": "AddressSuffix must be less than or equal to 2 characters ",
@@ -325,6 +405,7 @@
     "U_130": "Token must be less than or equal to 200 characters",
     "U_131": "AddressLine3 must be less than or equal to 25 characters",
     "U_132": "Zip Code must be less than or equal to 10 characters",
+    "U_133": "NotifyMsg cannot be empty",
 
     "U_201": "User does not exist",
     "U_202": "User is blocked permanently",
@@ -333,8 +414,10 @@
     "U_205": "Passcode Mismatch",
     "U_206": "User Not Found",
     "U_207": "User already exists",
+    "U_208": "Invalid Request",
+    "U_209": "SystemId, OrgId and countryCode does not exist",
 
-    "400": "Combination of Zip code and House number does not exist"
+    "getAddress.zipCode: ZS_101": "Combination of Zip code and House number does not exist"
   },
   "LOGIN-SERVICE-ERROR-CODES": {
     "U_001": "Internal Server Error",
@@ -342,7 +425,8 @@
     "L_202": "User is permanently blocked",
     "L_203": "User account unverified or reset password",
     "L_204": "Invalid username/password",
-    "L_205": "Account is locked for next 30 minutes. Retry after unlocking."
+    "L_205": "Account is locked for next 30 minutes. Retry after unlocking.",
+    "L_206": "Your password has expired, Reset your password."
   },
   "ALERT-ENQUIRY-SERVICE-ERROR-CODES": {
     "AS_001": "Internal Server Error",
@@ -356,9 +440,168 @@
     "AS_108": "Invalid To Date",
     "AS_109": "Alert content must be less than or equal to 200 characters",
     "AS_110": "Source of Alert type must be less than or equal to 20 characters",
-    "AS_111": "Invalid sort value"
+    "AS_111": "Alert type cannot be empty",
+    "AS_112": "Alert type must be less than or equal to 10 characters",
+    "AS_113": "Identity cannot be empty",
+    "AS_114": "Identity must be less than or equal to 50 characters",
+    "AS_115": "Identity type cannot be empty",
+    "AS_116": "Identity type must be less than or equal to 50 characters",
+    "AS_117": "Source cannot be empty",
+    "AS_118": "Source must be less than or equal to 20 characters",
+    "AS_119": "Organization cannot be empty",
+    "AS_120": "Organization must be less than or equal to 20 characters",
+    "AS_121": "Alert details cannot be empty",
+    "AS_122": "Alert details must be less than or equal to 2000 characters",
+    "AS_123": "UsageBy must be less than or equal to 200 characters",
+    "AS_124": "Invalid page number",
+    "AS_125": "Read Status is null"
   },
   "PUSH-MGS-SERVICE-ERROR-CODES": {
     "UN_110": "You are not Authorized to post Messages on behalf of the selected User"
+  },
+  "AUTHENTICATION": {
+    "AUTHENTICATION-TITLE": "Authentication",
+    "AUTHENTICATED-IDS": "Authenticated Identities ",
+    "AUTHENTICATION-INFO": "Authenticate your identities so that, we alert you whenever your identities have been used in our partnersystems.  You can report identity fraud in case your identity has been misused.",
+    "AUTHENTICATION-SUCCESS-MSG": "Authentication successfully done.",
+    "AUTHENTICATION-SUCCESS-MSG-DESC": "Your authentication request with IRMA is successfully done.",
+    "AUTHENTICATION-CONTINUE": "Continue",
+    "AUTHENTICATION-MY-CONSENT": "My Consent"
+  },
+  "ALERT-ENQUIRY": {
+    "TITLE": "Alert Enquiry",
+    "ALERT-ENQUIRY-INFO": "Statistics based on all app users",
+    "ALERT-ENQUIRY-SORT": "Sort",
+    "ALERT-ENQUIRY-SORT-DATE-TIME": "Date time",
+    "ALERT-ENQUIRY-SORT-TYPE": "Type",
+    "ALERT-ENQUIRY-SORT-STATUS": "Status",
+    "ALERT-ENQUIRY-SORT-SOURCE": "Alert source",
+    "ALERT-ENQUIRY-SORT-ACCESSED-BY": "Accessed by",
+    "ALERT-ENQUIRY-NO-DATA-FOUND": "No data found!!!",
+    "ALERT-ENQUIRY-UNREAD-LIST-STR-1": "Alerts",
+    "ALERT-ENQUIRY-UNREAD-LIST-STR-2": " are unread"
+
+  },
+  "MESSAGE-ENQUIRY": {
+    "MESSAGE-ENQUIRY-UNREAD-STR-1": " Messages",
+    "MESSAGE-ENQUIRY-UNREAD-STR-2": " are unread",
+    "MESSAGE-ENQUIRY-UNREAD-INFO": "By reading Tips & Tricks you will better understand how criminals work and give you advice on how to prevent Identity Fraud",
+    "MESSAGE-ENQUIRY-UNREAD-NO-DATA": "No data found!!!",
+    "MESSAGE-ENQUIRY-UNREAD-SORT-OPTIONS": "Sort Options",
+    "MESSAGE-ENQUIRY-UNREAD-SORT-DATE-TIME": "Date time",
+    "MESSAGE-ENQUIRY-UNREAD-SORT-OK": "OK",
+    "MESSAGE-ENQUIRY-UNREAD-SORT-CANCEL": "Cancel",
+
+    "MESSAGE-ENQUIRY-SEARCH-TITLE": "Search Message",
+    "MESSAGE-ENQUIRY-SEARCH-FROM-DATE": "FromDate",
+    "MESSAGE-ENQUIRY-TO-DATE": "ToDate",
+    "MESSAGE-ENQUIRY-CONTENT": "Content",
+    "MESSAGE-ENQUIRY-FROM": "From",
+    "MESSAGE-ENQUIRY-SEARCH-READ": "READ",
+    "MESSAGE-ENQUIRY-SEARCH-UNREAD": "UNREAD",
+    "MESSAGE-ENQUIRY-SEARCH-RESET": "Reset",
+    "MESSAGE-ENQUIRY-SEARCH-REFINE": "Refine",
+    "MESSAGE-ENQUIRY-NO-DATA": "No data found!!!"
+  },
+  "USER-NEWS-SERVICE-ERROR-CODES": {
+    "UN_001": "Internal Server Error",
+    "UN_101": "UserID cannot be empty",
+    "UN_102": "User ID must be exactly 8 characters",
+    "UN_103": "User does not exist",
+    "UN_104": "Invalid Read Status",
+    "UN_105": "Invalid Page number",
+    "UN_106": "Invalid Request",
+    "UN_107": "Invalid User News Sorting Column",
+    "UN_108": "Invalid From Date",
+    "UN_109": "Invalid To Date",
+    "UN_110": "UserID and PostUserName does not exist",
+    "UN_111": "Heading must be less than or equal to 50 characters",
+    "UN_112": "Message must be less than or equal to 2000 characters",
+    "UN_113": "PostUserName must be less than or equal to 50 characters",
+    "UN_114": "Invalid Page number",
+    "UN_115": "Read Status is null",
+    "UN_116": "Invalid News ID"
+  },
+  "AUDIT-LOG-SERVICE-ERROR-CODES": {
+    "AL_001": "Internal Server Error",
+    "AL_002": "Invalid request body",
+    "AL_101": "Actor cannot be empty",
+    "AL_102": "Actor must be exactly 8 characters",
+    "AL_103": "Log time cannot be empty",
+    "AL_104": "Invalid log time",
+    "AL_105": "Type cannot be empty",
+    "AL_106": "Type must be less than or equal to 20 characters",
+    "AL_107": "Description cannot be empty",
+    "AL_108": "Description must be less than or equal to 200 characters",
+    "AL_109": "Param1 must be less than or equal to 50 characters",
+    "AL_110": "Param2 must be less than or equal to 50 characters",
+    "AL_111": "Comment must be less than or equal to 200 characters",
+    "AL_112": "Invalid From Date",
+    "AL_113": "Invalid To Date",
+    "AL_114": "Invalid Page number",
+    "AL_115": "Invalid Audit Log Sorting Column",
+    "AL_116": "Audit Log Sorting Column is null",
+    "AL_117": "Invalid Audit ID"
+  },
+  "AUTHENTICATION-SERVICE-ERROR-CODES": {
+    "AT_001": "Internal Server Error",
+    "AT_101": "UserID cannot be empty",
+    "AT_102": "Invalid UserID",
+    "AT_103": "CountryCode cannot be empty",
+    "AT_104": "Invalid CountryCode",
+    "AT_105": "IdentityId cannot be empty",
+    "AT_106": "Invalid IdentityId",
+    "AT_107": "IdentityTypeId cannot be empty",
+    "AT_108": "Invalid IdentityTypeId",
+    "AT_109": "UserID does not exist",
+    "AT_110": "CountryCode does not exist",
+    "AT_111": "AuthSystemId cannot be empty",
+    "AT_112": "Invalid AuthSystemId",
+    "AT_113": "Invalid Input"
+  },
+  "EMAIL-SERVICE-ERROR-CODES": {
+    "ES_001": "Internal Server Error",
+    "ES_002": "Empty request body",
+    "ES_201": "Email cannot be empty",
+    "ES_202": "Email is not valid",
+    "ES_203": "Email must be greater than or equal to 5 characters and less than or equal to 50 characters",
+    "ES_204": "Subject cannot be empty",
+    "ES_205": "Subject must be greater than or equal to 5 characters and less than or equal to 200 characters",
+    "ES_206": "Body cannot be empty",
+    "ES_207": "Body must be greater than or equal to 5 characters and less than or equal to 1000 characters"
+  },
+  "FRAUD-REPORT-SERVICE-ERROR-CODES": {
+    "FR_001": "Invalid Alert ID",
+    "FR_102": "API is not requested and executed",
+    "FR_103": "No Email dropped",
+    "FR_104": "Invalid AlertID",
+    "FR_105": "Invalid AlertTypeID",
+    "FR_106": "No Records found for AlertTypeId",
+    "FR_107": "MessageTemplate found NULL"
+  },
+  "SUBSCRIPTION-SERVICE-ERROR-CODES": {
+    "S_001": "Internal Server Error",
+    "S_107": "Invalid request body",
+    "S_101": "UserID cannot be empty",
+    "S_102": "Country code cannot be empty",
+    "S_103": "Subscription cannot be empty",
+    "S_104": "Subscription ID cannot be empty",
+    "S_105": "User ID must be exactly 8 characters",
+    "S_106": "Subscription ID and CountryCode does not exist",
+    "S_108": "User does not exist"
+  },
+  "SYSTEM-SERVICE-ERROR-CODES": {
+    "AS_001": "Internal Server Error",
+    "AS_101": "Invalid Alert ID"
+  },
+  "FRAUD-SERVICE-ERROR-CODES": {
+    "F_001": "Internal Server Error",
+    "F_101": "Alert ID cannot be empty",
+    "F_102": "Status cannot be empty",
+    "F_103": "Invalid Alert Status",
+    "F_104": "Comment must be less than or equal to 1800 characters",
+    "F_105": "Invalid Alert ID",
+    "F_106": "Alert Already Reported"
   }
+
 }

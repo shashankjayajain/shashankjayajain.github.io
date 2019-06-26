@@ -176,6 +176,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @angular/material/form-field
 
+ngx-spinner
+MIT
+
 ngx-bootstrap/chronos
 The MIT License (MIT)
 
@@ -656,9 +659,6 @@ MIT
 MIT
 
 @angular/forms
-MIT
-
-ngx-spinner
 MIT
 
 @angular/animations
